@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上海珍珠之家</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #007BFF, #00BFFF);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+      .navbar {
+            background-color: rgba(0, 0, 0, 0.6);
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+        }
+
+      .navbar a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: background-color 0.3s ease;
+        }
+
+      .navbar a:hover {
+            background-color: rgba(0, 123, 255, 0.8);
+        }
+
+      .navbar a.active {
+            background-color: rgba(0, 123, 255, 0.8);
+        }
+
+      .main-container {
+            width: 80%;
+            margin: 60px auto 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+      .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+      .logo img {
+            width: 200px;
+        }
+
+      .section-title {
+            text-align: center;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+
+      .introduction {
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+      .vision-mission-slogan {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+      .vision-mission-slogan h2 {
+            margin-bottom: 10px;
+        }
+
+      .vision-mission-slogan p {
+            margin: 5px 0;
+        }
+
+      .shanghai-building-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+      .shanghai-building-section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+
+      .slider-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+      .slider {
+            display: flex;
+            width: 100%;
+            transition: transform 0.5s ease;
+        }
+
+      .slider img {
+            width: 20%;
+            height: auto;
+        }
+
+      .slider-nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+      .slider-nav span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ccc;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+      .slider-nav span.active {
+            background-color: #007BFF;
+        }
+        iframe {
+            width: 80%;
+            height: 800px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#home" class="active">首页</a>
+        <a href="#about">关于我们</a>
+        <a href="上珍服委会.html">上海珍珠之家服务委员会</a>
+        <a href="https://www.xhef.org/index">新华爱心教育基金会</a>
+        <a href="#contact">联系我们</a>
+    </div>
+    <div class="main-container" id="home">
+        <div class="logo">
+            <table width="1000" align="center">
+            <tr>
+            <img src="logo.jpg" alt="上海珍珠之家logo">
+            </tr>
+            <tr>
+            <td>
+            <img src="logo1.jpg" alt="小才logo">
+            </td>
+            <td><h1 align="center" >上海珍珠之家欢迎你！！！</h1></td>
+            <td>
+            <img src="logo2.jpg" alt="小爱logo">               
+            </td>
+            </tr>
+            </table>
+        </div>
+        <div class="introduction" id="about">
+            <h2 class="section-title">关于我们</h2>
+            <p>上海珍珠之家是由上海的大学珍珠生及职场珍珠生建立的珍珠生的小家，我们举办各种各样的活动，比如每年的迎新、送旧、春游、秋游、企业参访等等，让从全国各地高中考到上海的大学和职场珍珠生在上海感受到独属于珍珠生的温暖，能够更快地适应新的生活，通过我们的平台见识更多更广阔的天地，学习到更广泛的知识，接触到更丰富的人群，为“捡回珍珠计划”发一分光、出一份力。</p>
+        </div>
+        <div class="vision-mission-slogan">
+            <h2>愿景</h2>
+            <p>努力把上海珍珠之家打造成上海珍珠生的第二个家。</p>
+            <h2>使命</h2>
+            <p>让珍珠生变得更加优秀，把爱传承下去，带动更多的人。</p>
+            <h2>口号</h2>
+            <p>珍珠生不一样，就是不一样</p>
+        </div>
+        <div class="shanghai-building-section">
+            <h2 class="section-title">部分活动照片</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="photo1.jpg" alt="活动照片1">
+                    <img src="photo2.jpg" alt="活动照片2">
+                    <img src="photo3.jpg" alt="活动照片3">
+                    <img src="photo4.jpg" alt="活动照片4">
+                    <img src="photo5.jpg" alt="活动照片5">
+                </div>
+                <div class="slider-nav">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                    <span class="dot" data-index="4"></span>
+                </div>
+            </div>
+        </div>
+        <div class="product-showcase" id="products">
+            <h2 class="section-title">2024年度活动时间表一览</h2>
+            <img src="2024活动合集.jpg"  align="center">
+        </div>
+        <div class="vision-mission-slogan">
+            <h2>致新上珍人</h2>
+            <iframe src="致新上海珍珠生.pdf" width="800" height="800"></iframe>
+        </div>
+        <div id="contact">
+            <h2 class="section-title">联系我们</h2>
+            <p>地址：上海市(暂时没有固定办公室嘻嘻)</p>
+            <p>电话：10086（暂无）</p>
+            <p>邮箱：info@上珍No.1 pearlhome.com（暂无）</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p align="center">版权所有 © 2025 上海珍珠之家</p>
+    </div>
+    <script>
+        const sliderContainer = document.querySelector('.slider-container');
+        const slider = document.querySelector('.slider');
+        const dots = document.querySelectorAll('.slider-nav span');
+
+        function slideTo(index) {
+            const slideWidth = slider.offsetWidth;
+            const translateXValue = -index * slideWidth;
+            slider.style.transform = `translateX(${translateXValue}px)`;
+
+            dots.forEach((dot, i) => {
+                if (i === index) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+        }
+
+        slideTo(0);
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                slideTo(index);
+            });
+        });
+    </script>
+</body>
+
+</html>
